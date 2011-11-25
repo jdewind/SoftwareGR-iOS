@@ -1,5 +1,6 @@
 #import "JSCloudFacesViewController.h"
 #import "UIAlertView+UIAlertViewExtensions.h"
+#import "JSCloudFaceDocumentViewController.h"
 
 @implementation JSCloudFacesViewController
 @synthesize cloudWrapper = _cloudWrapper;
@@ -19,6 +20,7 @@
   if (!self.cloudWrapper.isCloudAvailable) {
     [UIAlertView js_showCloudNotAvailableAlert];
   }
+  self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addCloudFaceButtonTapped)];
   [super viewDidLoad];
 }
 
@@ -59,7 +61,12 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+{  
+}
+
+#pragma mark - Callbacks
+
+- (void)addCloudFaceButtonTapped {
 }
 
 @end

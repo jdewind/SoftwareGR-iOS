@@ -1,0 +1,264 @@
+TCloudFace
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/Info.plist CloudFace/CloudFace-Info.plist
+cProcessPCH /var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch.pth CloudFace/CloudFace-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/main.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSAppDelegate.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudFacesViewController.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudWrapper.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/UIAlertView+UIAlertViewExtensions.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace normal i386
+cGenerateDSYMFile /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app.dSYM /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace
+cCopyStringsFile /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/en.lproj/InfoPlist.strings CloudFace/en.lproj/InfoPlist.strings
+cTouch /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EBB30490000000000000110
+t1320890441
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/CloudFace-Prefix.pch
+c000000004ECFD58C000000000000013D
+t1322243468
+s317
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m
+c000000004ECFD8930000000000000292
+t1322244243
+s658
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m
+c000000004ECFE0F3000000000000063E
+t1322246387
+s1598
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.m
+c000000004ECFDCC6000000000000021A
+t1322245318
+s538
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m
+c000000004ECFDFCC0000000000000182
+t1322246092
+s386
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/en.lproj/InfoPlist.strings
+c000000004ECFD58C000000000000002D
+t1322243468
+s45
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m
+c000000004ECFD7C500000000000000CC
+t1322244037
+s204
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/CloudFace.LinkFileList
+c000000004ECFE13A00000000000002D5
+t1322246458
+s725
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSAppDelegate.o
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudFacesViewController.o
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudWrapper.o
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/UIAlertView+UIAlertViewExtensions.o
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app.dSYM
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/Info.plist
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/PkgInfo
+t2
+s0
+
+N/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch.pth
+t1322246097
+s3914872
+
+NCloudFace/CloudFace-Info.plist
+c000000004ECFD58C00000000000004B9
+t1322243468
+s1209
+
+CBuild AST from /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m
+r0
+
+CBuild AST from /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m
+r0
+
+CBuild AST from /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.m
+r0
+
+CBuild AST from /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m
+r0
+
+CBuild AST from /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies57787fba1880b441^310a86ba1880b441^---0#1#0#--18"Check dependencies36"655254CA-7FDB-4806-9A87-D10543EB2B26-
+
+CCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSAppDelegate.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343939258.547242
+e343939258.605362
+r1
+xCompileC
+xbuild/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSAppDelegate.o
+x/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m1a348cba1880b441^53099bba1880b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m0000000000000000^2780"CompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSAppDelegate.o CloudFace/JSAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-generated-files.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-own-target-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-all-target-headers.hmap -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-project-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/include -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources/i386 -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources -F/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator -include /var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch -MMD -MT dependencies -MF /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSAppDelegate.d -c /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSAppDelegate.m -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSAppDelegate.o36"FEFD0E1D-9B90-4235-87E5-7659269E1304-
+
+CCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudFacesViewController.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343939258.547252
+e343939258.584502
+r1
+xCompileC
+xbuild/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudFacesViewController.o
+x/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m5a2d8cba1880b441^baa195ba1880b441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m0000000000000000^2845"CompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudFacesViewController.o CloudFace/JSCloudFacesViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-generated-files.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-own-target-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-all-target-headers.hmap -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-project-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/include -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources/i386 -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources -F/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator -include /var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch -MMD -MT dependencies -MF /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudFacesViewController.d -c /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudFacesViewController.m -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudFacesViewController.o36"BDF280C3-97E0-4E73-8ED8-BE98C0F288D8-
+
+CCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudWrapper.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343939258.547291
+e343939258.572675
+r1
+xCompileC
+xbuild/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudWrapper.o
+x/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.mec2e8cba1880b441^809a92ba1880b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.m0000000000000000^2785"CompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudWrapper.o CloudFace/JSCloudWrapper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-generated-files.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-own-target-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-all-target-headers.hmap -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-project-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/include -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources/i386 -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources -F/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator -include /var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch -MMD -MT dependencies -MF /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudWrapper.d -c /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/JSCloudWrapper.m -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/JSCloudWrapper.o36"55C5DCBC-9FF6-4A32-BE50-47A1388BFB90-
+
+CCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/UIAlertView+UIAlertViewExtensions.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343939258.547305
+e343939258.591061
+r1
+xCompileC
+xbuild/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/UIAlertView+UIAlertViewExtensions.o
+x/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m3f378cba1880b441^f84f97ba1880b441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m0000000000000000^2880"CompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/UIAlertView+UIAlertViewExtensions.o CloudFace/UIAlertView+UIAlertViewExtensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-generated-files.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-own-target-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-all-target-headers.hmap -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-project-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/include -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources/i386 -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources -F/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator -include /var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch -MMD -MT dependencies -MF /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/UIAlertView+UIAlertViewExtensions.d -c /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/UIAlertView+UIAlertViewExtensions.m -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/UIAlertView+UIAlertViewExtensions.o36"442DD4F1-3586-4918-9FD2-449D61EAAEC3-
+
+CCompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/main.o /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s343939258.547023
+e343939258.570884
+r1
+xCompileC
+xbuild/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/main.o
+x/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m8a1e8cba1880b441^3e2692ba1880b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m0000000000000000^2735"CompileC build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/main.o CloudFace/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-generated-files.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-own-target-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-all-target-headers.hmap -iquote /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/CloudFace-project-headers.hmap -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/include -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources/i386 -I/Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/DerivedSources -F/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator -include /var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch -MMD -MT dependencies -MF /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/main.d -c /Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/main.m -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/main.o36"40E0358B-584E-448F-83C3-B56E18B2549F-
+
+CCopyStringsFile /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/en.lproj/InfoPlist.strings CloudFace/en.lproj/InfoPlist.strings
+s343939258.663952
+e343939258.666925
+r1
+xCopyStringsFile
+x/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/en.lproj/InfoPlist.strings
+xCloudFace/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy CloudFace/en.lproj/InfoPlist.strings1405aaba1880b441^1fbcaaba1880b441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/en.lproj/InfoPlist.strings0000000000000000^529"CopyStringsFile build/Debug-iphonesimulator/CloudFace.app/en.lproj/InfoPlist.strings CloudFace/en.lproj/InfoPlist.strings    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/en.lproj -- CloudFace/en.lproj/InfoPlist.strings36"D2BB0F69-57E6-4AE7-B509-10320E7FD60D-
+
+CGenerateDSYMFile /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app.dSYM /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace
+s343939258.641935
+e343939258.656246
+r1
+xGenerateDSYMFile
+x/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app.dSYM
+x/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generating /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app.dSYMd462a4ba1880b441^3f01a8ba1880b441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app.dSYM00f49c3bdeffdf42^520"GenerateDSYMFile build/Debug-iphonesimulator/CloudFace.app.dSYM build/Debug-iphonesimulator/CloudFace.app/CloudFace    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app.dSYM36"8EC72DCE-589C-42EC-A918-43F89EB50B4C-
+
+CLd /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace normal i386
+s343939258.612488
+e343939258.635094
+r1
+xLd
+x/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace6adb9cba1880b441^b396a2ba1880b441^---0#0#0#--1081"Ld build/Debug-iphonesimulator/CloudFace.app/CloudFace normal i386    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator -F/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator -filelist /Users/dewindj/git/softwaregr-ios/CloudFace/build/CloudFace.build/Debug-iphonesimulator/CloudFace.build/Objects-normal/i386/CloudFace.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/CloudFace36"AABB04F1-FBCD-4B31-8F82-EC30AEA4612B-
+
+CProcessInfoPlistFile /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/Info.plist CloudFace/CloudFace-Info.plist
+s343939258.527764
+e343939258.531511
+r1
+xProcessInfoPlistFile
+x/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/Info.plist
+xCloudFace/CloudFace-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process CloudFace/CloudFace-Info.plist782787ba1880b441^881388ba1880b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/dewindj/git/softwaregr-ios/CloudFace/CloudFace/CloudFace-Info.plist0000000000000000^615"ProcessInfoPlistFile build/Debug-iphonesimulator/CloudFace.app/Info.plist CloudFace/CloudFace-Info.plist    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CloudFace/CloudFace-Info.plist -genpkginfo /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app/Info.plist36"CD510E09-0334-4D99-B323-18DC91E5ADDB-
+
+CProcessPCH /Users/dewindj/Library/Developer/Xcode/DerivedData/softwaregr-ios-acrgkdoixzbprafzcbrvruwupnqw/Index/PrecompiledHeaders/CloudFace-Prefix-awikneyacpywoshicprpubybrjiy_ast/CloudFace-Prefix.pch.pth CloudFace/CloudFace-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/v5/74m5th1n2h19lmxcv0ndz2000000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CloudFace-Prefix-dxmjhiswceywbwffrajanmcthngz/CloudFace-Prefix.pch.pth CloudFace/CloudFace-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app
+s343939258.674298
+e343939258.678351
+r1
+xTouch
+x/Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.appe7a7acba1880b441^dfa8adba1880b441^---0#0#0#--338"Touch build/Debug-iphonesimulator/CloudFace.app    cd /Users/dewindj/git/softwaregr-ios/CloudFace    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dewindj/git/softwaregr-ios/CloudFace/build/Debug-iphonesimulator/CloudFace.app36"E2781FEF-B290-4E33-AA55-CF4EA139DE85-
+

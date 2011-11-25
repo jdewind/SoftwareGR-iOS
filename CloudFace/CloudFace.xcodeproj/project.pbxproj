@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B098EB0148011AD004C581D /* JSCloudWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EAF148011AD004C581D /* JSCloudWrapper.m */; };
 		4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */; };
+		4B098EBA14801C85004C581D /* JSCloudFaceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB914801C85004C581D /* JSCloudFaceDocument.m */; };
+		4B098EBD14801F6B004C581D /* JSCloudFaceDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */; };
 		4B83EECE14800D0C00DD1CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECD14800D0C00DD1CBA /* UIKit.framework */; };
 		4B83EED014800D0C00DD1CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECF14800D0C00DD1CBA /* Foundation.framework */; };
 		4B83EED214800D0C00DD1CBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */; };
@@ -23,6 +25,10 @@
 		4B098EAF148011AD004C581D /* JSCloudWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudWrapper.m; sourceTree = "<group>"; };
 		4B098EB2148016DA004C581D /* UIAlertView+UIAlertViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+UIAlertViewExtensions.h"; sourceTree = "<group>"; };
 		4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+UIAlertViewExtensions.m"; sourceTree = "<group>"; };
+		4B098EB814801C85004C581D /* JSCloudFaceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFaceDocument.h; sourceTree = "<group>"; };
+		4B098EB914801C85004C581D /* JSCloudFaceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDocument.m; sourceTree = "<group>"; };
+		4B098EBB14801F6B004C581D /* JSCloudFaceDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFaceDocumentViewController.h; sourceTree = "<group>"; };
+		4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDocumentViewController.m; sourceTree = "<group>"; };
 		4B83EEC914800D0C00DD1CBA /* CloudFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B83EECD14800D0C00DD1CBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4B83EECF14800D0C00DD1CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +98,10 @@
 				4B098EAF148011AD004C581D /* JSCloudWrapper.m */,
 				4B098EB2148016DA004C581D /* UIAlertView+UIAlertViewExtensions.h */,
 				4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */,
+				4B098EB814801C85004C581D /* JSCloudFaceDocument.h */,
+				4B098EB914801C85004C581D /* JSCloudFaceDocument.m */,
+				4B098EBB14801F6B004C581D /* JSCloudFaceDocumentViewController.h */,
+				4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */,
 			);
 			path = CloudFace;
 			sourceTree = "<group>";
@@ -173,6 +183,8 @@
 				4B83EEE714800FA700DD1CBA /* JSCloudFacesViewController.m in Sources */,
 				4B098EB0148011AD004C581D /* JSCloudWrapper.m in Sources */,
 				4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */,
+				4B098EBA14801C85004C581D /* JSCloudFaceDocument.m in Sources */,
+				4B098EBD14801F6B004C581D /* JSCloudFaceDocumentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
