@@ -1,9 +1,9 @@
-#import "JSCloudFaceDocumentViewController.h"
+#import "JSCreateCloudFaceDocumentViewController.h"
 #import "JSCloudWrapper.h"
 
-@implementation JSCloudFaceDocumentViewController
-@synthesize document = _document;
+@implementation JSCreateCloudFaceDocumentViewController
 @synthesize imageView = _imageView;
+@synthesize hud = _hud;
 
 - (id)initWithImage:(UIImage *)image {
   if ((self = [super initWithNibName:@"JSCloudFaceDocumentViewController" bundle:nil])) {
@@ -16,12 +16,14 @@
 
 - (void)viewDidLoad
 {
-  if (self.document.newDocument) {
-    self.title = @"New Cloud Face";
-//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(saveTapped)];
-  }
+  self.title = @"New Cloud Face";
+  self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(saveTapped)];
   self.imageView.image = _image;
   [super viewDidLoad];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
 }
 
 - (void)viewDidUnload

@@ -1,6 +1,6 @@
 #import "JSCloudFacesViewController.h"
 #import "UIAlertView+UIAlertViewExtensions.h"
-#import "JSCloudFaceDocumentViewController.h"
+#import "JSCreateCloudFaceDocumentViewController.h"
 
 @implementation JSCloudFacesViewController
 @synthesize cloudWrapper = _cloudWrapper;
@@ -71,7 +71,7 @@
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo {
-  JSCloudFaceDocumentViewController *documentViewController = [[JSCloudFaceDocumentViewController alloc] initWithImage:image];
+  JSCreateCloudFaceDocumentViewController *documentViewController = [[JSCreateCloudFaceDocumentViewController alloc] initWithImage:image];
   [picker pushViewController:documentViewController animated:YES];
 }
 

@@ -10,9 +10,10 @@
 		4B098EB0148011AD004C581D /* JSCloudWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EAF148011AD004C581D /* JSCloudWrapper.m */; };
 		4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */; };
 		4B098EBA14801C85004C581D /* JSCloudFaceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB914801C85004C581D /* JSCloudFaceDocument.m */; };
-		4B098EBD14801F6B004C581D /* JSCloudFaceDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */; };
-		4B098EC814802DED004C581D /* JSCloudFaceDocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B098EC714802DED004C581D /* JSCloudFaceDocumentViewController.xib */; };
+		4B098EBD14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EBC14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m */; };
+		4B098EC814802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B098EC714802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib */; };
 		4B098ECA14802FBA004C581D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B098EC914802FBA004C581D /* CoreImage.framework */; };
+		4B098EF8148036F5004C581D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EE4148036F5004C581D /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4B83EECE14800D0C00DD1CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECD14800D0C00DD1CBA /* UIKit.framework */; };
 		4B83EED014800D0C00DD1CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECF14800D0C00DD1CBA /* Foundation.framework */; };
 		4B83EED214800D0C00DD1CBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */; };
@@ -29,10 +30,12 @@
 		4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+UIAlertViewExtensions.m"; sourceTree = "<group>"; };
 		4B098EB814801C85004C581D /* JSCloudFaceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFaceDocument.h; sourceTree = "<group>"; };
 		4B098EB914801C85004C581D /* JSCloudFaceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDocument.m; sourceTree = "<group>"; };
-		4B098EBB14801F6B004C581D /* JSCloudFaceDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFaceDocumentViewController.h; sourceTree = "<group>"; };
-		4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDocumentViewController.m; sourceTree = "<group>"; };
-		4B098EC714802DED004C581D /* JSCloudFaceDocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCloudFaceDocumentViewController.xib; sourceTree = "<group>"; };
+		4B098EBB14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCreateCloudFaceDocumentViewController.h; sourceTree = "<group>"; };
+		4B098EBC14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCreateCloudFaceDocumentViewController.m; sourceTree = "<group>"; };
+		4B098EC714802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCreateCloudFaceDocumentViewController.xib; sourceTree = "<group>"; };
 		4B098EC914802FBA004C581D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4B098EE3148036F5004C581D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4B098EE4148036F5004C581D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4B83EEC914800D0C00DD1CBA /* CloudFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B83EECD14800D0C00DD1CBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4B83EECF14800D0C00DD1CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B098ECB148036F5004C581D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4B098EE3148036F5004C581D /* MBProgressHUD.h */,
+				4B098EE4148036F5004C581D /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = Libraries/MBProgressHUD;
+			sourceTree = SOURCE_ROOT;
+		};
 		4B83EEBE14800D0C00DD1CBA = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +107,7 @@
 		4B83EED314800D0C00DD1CBA /* CloudFace */ = {
 			isa = PBXGroup;
 			children = (
+				4B098ECB148036F5004C581D /* MBProgressHUD */,
 				4B83EEE414800DEE00DD1CBA /* CloudFace.entitlements */,
 				4B83EEDC14800D0C00DD1CBA /* JSAppDelegate.h */,
 				4B83EEDD14800D0C00DD1CBA /* JSAppDelegate.m */,
@@ -106,9 +120,9 @@
 				4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */,
 				4B098EB814801C85004C581D /* JSCloudFaceDocument.h */,
 				4B098EB914801C85004C581D /* JSCloudFaceDocument.m */,
-				4B098EBB14801F6B004C581D /* JSCloudFaceDocumentViewController.h */,
-				4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */,
-				4B098EC714802DED004C581D /* JSCloudFaceDocumentViewController.xib */,
+				4B098EBB14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.h */,
+				4B098EBC14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m */,
+				4B098EC714802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib */,
 			);
 			path = CloudFace;
 			sourceTree = "<group>";
@@ -175,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B83EED814800D0C00DD1CBA /* InfoPlist.strings in Resources */,
-				4B098EC814802DED004C581D /* JSCloudFaceDocumentViewController.xib in Resources */,
+				4B098EC814802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +206,8 @@
 				4B098EB0148011AD004C581D /* JSCloudWrapper.m in Sources */,
 				4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */,
 				4B098EBA14801C85004C581D /* JSCloudFaceDocument.m in Sources */,
-				4B098EBD14801F6B004C581D /* JSCloudFaceDocumentViewController.m in Sources */,
+				4B098EBD14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m in Sources */,
+				4B098EF8148036F5004C581D /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

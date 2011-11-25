@@ -1,11 +1,11 @@
 #import <UIKit/UIKit.h>
 #import "JSCloudFaceDocument.h"
 
-@interface JSCloudFaceDocumentViewController : UIViewController {
+@interface JSCreateCloudFaceDocumentViewController : UIViewController {
   UIImage *_image;
 }
 
-@property (nonatomic, strong) JSCloudFaceDocument *document;
+@property (strong, nonatomic) MBProgressHUD *hud;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 - (id)initWithImage:(UIImage *)image;
