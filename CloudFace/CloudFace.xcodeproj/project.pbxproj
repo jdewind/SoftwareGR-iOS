@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B098EB0148011AD004C581D /* JSCloudWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EAF148011AD004C581D /* JSCloudWrapper.m */; };
+		4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */; };
 		4B83EECE14800D0C00DD1CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECD14800D0C00DD1CBA /* UIKit.framework */; };
 		4B83EED014800D0C00DD1CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECF14800D0C00DD1CBA /* Foundation.framework */; };
 		4B83EED214800D0C00DD1CBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B098EAE148011AD004C581D /* JSCloudWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudWrapper.h; sourceTree = "<group>"; };
+		4B098EAF148011AD004C581D /* JSCloudWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudWrapper.m; sourceTree = "<group>"; };
+		4B098EB2148016DA004C581D /* UIAlertView+UIAlertViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+UIAlertViewExtensions.h"; sourceTree = "<group>"; };
+		4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+UIAlertViewExtensions.m"; sourceTree = "<group>"; };
 		4B83EEC914800D0C00DD1CBA /* CloudFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B83EECD14800D0C00DD1CBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4B83EECF14800D0C00DD1CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +88,10 @@
 				4B83EED414800D0C00DD1CBA /* Supporting Files */,
 				4B83EEE514800FA700DD1CBA /* JSCloudFacesViewController.h */,
 				4B83EEE614800FA700DD1CBA /* JSCloudFacesViewController.m */,
+				4B098EAE148011AD004C581D /* JSCloudWrapper.h */,
+				4B098EAF148011AD004C581D /* JSCloudWrapper.m */,
+				4B098EB2148016DA004C581D /* UIAlertView+UIAlertViewExtensions.h */,
+				4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */,
 			);
 			path = CloudFace;
 			sourceTree = "<group>";
@@ -161,6 +171,8 @@
 				4B83EEDA14800D0C00DD1CBA /* main.m in Sources */,
 				4B83EEDE14800D0C00DD1CBA /* JSAppDelegate.m in Sources */,
 				4B83EEE714800FA700DD1CBA /* JSCloudFacesViewController.m in Sources */,
+				4B098EB0148011AD004C581D /* JSCloudWrapper.m in Sources */,
+				4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +278,7 @@
 				4B83EEE314800D0C00DD1CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
