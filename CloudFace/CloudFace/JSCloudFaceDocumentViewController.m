@@ -4,13 +4,11 @@
 @implementation JSCloudFaceDocumentViewController
 @synthesize document = _document;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-      self.document = [[JSCloudWrapper shared] createDocument];
-    }
-    return self;
+- (id)initWithDocument:(JSCloudFaceDocument *)document {
+  if ((self = [super initWithNibName:nil bundle:nil])) {
+    self.document = document;
+  }
+  return self;
 }
 
 #pragma mark - View lifecycle

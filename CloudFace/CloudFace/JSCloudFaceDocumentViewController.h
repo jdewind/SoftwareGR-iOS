@@ -3,4 +3,5 @@
 
 @interface JSCloudFaceDocumentViewController : UIViewController
 @property (nonatomic, strong) JSCloudFaceDocument *document;
+- (id)initWithDocument:(JSCloudFaceDocument *)document;
 @end

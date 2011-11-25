@@ -64,9 +64,26 @@
 {  
 }
 
+#pragma mark - UIImagePickerControllerDelegate
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+  [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo {
+  JSCloudFaceDocument *document = [self.cloudWrapper createDocument];
+  document.faceImage = [CIImage imageWithCGImage:image.CGImage];
+  JSCloudFaceDocumentViewController *documentViewController = [[JSCloudFaceDocumentViewController alloc] initWithDocument:document];
+  [picker pushViewController:documentViewController animated:YES];
+}
+
 #pragma mark - Callbacks
 
 - (void)addCloudFaceButtonTapped {
+  UIImagePickerController *pickerController = [[UIImagePickerController alloc] init];
+  pickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+  pickerController.delegate = self;
+  [self presentModalViewController:pickerController animated:YES];
 }
 
 @end
