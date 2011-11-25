@@ -7,6 +7,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
   if((self = [super initWithNibName:nil bundle:nil])) {
     self.cloudWrapper = [JSCloudWrapper shared];
+    self.title = @"Cloud Faces";
   }
   return self;
 }
