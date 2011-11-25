@@ -11,6 +11,8 @@
 		4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */; };
 		4B098EBA14801C85004C581D /* JSCloudFaceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB914801C85004C581D /* JSCloudFaceDocument.m */; };
 		4B098EBD14801F6B004C581D /* JSCloudFaceDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */; };
+		4B098EC814802DED004C581D /* JSCloudFaceDocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B098EC714802DED004C581D /* JSCloudFaceDocumentViewController.xib */; };
+		4B098ECA14802FBA004C581D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B098EC914802FBA004C581D /* CoreImage.framework */; };
 		4B83EECE14800D0C00DD1CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECD14800D0C00DD1CBA /* UIKit.framework */; };
 		4B83EED014800D0C00DD1CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECF14800D0C00DD1CBA /* Foundation.framework */; };
 		4B83EED214800D0C00DD1CBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */; };
@@ -29,6 +31,8 @@
 		4B098EB914801C85004C581D /* JSCloudFaceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDocument.m; sourceTree = "<group>"; };
 		4B098EBB14801F6B004C581D /* JSCloudFaceDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFaceDocumentViewController.h; sourceTree = "<group>"; };
 		4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDocumentViewController.m; sourceTree = "<group>"; };
+		4B098EC714802DED004C581D /* JSCloudFaceDocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCloudFaceDocumentViewController.xib; sourceTree = "<group>"; };
+		4B098EC914802FBA004C581D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		4B83EEC914800D0C00DD1CBA /* CloudFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B83EECD14800D0C00DD1CBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4B83EECF14800D0C00DD1CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B098ECA14802FBA004C581D /* CoreImage.framework in Frameworks */,
 				4B83EECE14800D0C00DD1CBA /* UIKit.framework in Frameworks */,
 				4B83EED014800D0C00DD1CBA /* Foundation.framework in Frameworks */,
 				4B83EED214800D0C00DD1CBA /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +66,7 @@
 		4B83EEBE14800D0C00DD1CBA = {
 			isa = PBXGroup;
 			children = (
+				4B098EC914802FBA004C581D /* CoreImage.framework */,
 				4B83EED314800D0C00DD1CBA /* CloudFace */,
 				4B83EECC14800D0C00DD1CBA /* Frameworks */,
 				4B83EECA14800D0C00DD1CBA /* Products */,
@@ -102,6 +108,7 @@
 				4B098EB914801C85004C581D /* JSCloudFaceDocument.m */,
 				4B098EBB14801F6B004C581D /* JSCloudFaceDocumentViewController.h */,
 				4B098EBC14801F6B004C581D /* JSCloudFaceDocumentViewController.m */,
+				4B098EC714802DED004C581D /* JSCloudFaceDocumentViewController.xib */,
 			);
 			path = CloudFace;
 			sourceTree = "<group>";
@@ -168,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B83EED814800D0C00DD1CBA /* InfoPlist.strings in Resources */,
+				4B098EC814802DED004C581D /* JSCloudFaceDocumentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

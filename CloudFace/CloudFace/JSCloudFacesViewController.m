@@ -71,9 +71,7 @@
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo {
-  JSCloudFaceDocument *document = [self.cloudWrapper createDocument];
-  document.faceImage = [CIImage imageWithCGImage:image.CGImage];
-  JSCloudFaceDocumentViewController *documentViewController = [[JSCloudFaceDocumentViewController alloc] initWithDocument:document];
+  JSCloudFaceDocumentViewController *documentViewController = [[JSCloudFaceDocumentViewController alloc] initWithImage:image];
   [picker pushViewController:documentViewController animated:YES];
 }
 

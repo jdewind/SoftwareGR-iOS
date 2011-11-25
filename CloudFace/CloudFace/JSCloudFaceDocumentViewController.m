@@ -3,10 +3,11 @@
 
 @implementation JSCloudFaceDocumentViewController
 @synthesize document = _document;
+@synthesize imageView = _imageView;
 
-- (id)initWithDocument:(JSCloudFaceDocument *)document {
-  if ((self = [super initWithNibName:nil bundle:nil])) {
-    self.document = document;
+- (id)initWithImage:(UIImage *)image {
+  if ((self = [super initWithNibName:@"JSCloudFaceDocumentViewController" bundle:nil])) {
+    _image = image;
   }
   return self;
 }
@@ -15,12 +16,18 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+  if (self.document.newDocument) {
+    self.title = @"New Cloud Face";
+//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(saveTapped)];
+  }
+  self.imageView.image = _image;
+  [super viewDidLoad];
 }
 
 - (void)viewDidUnload
 {
-    [super viewDidUnload];
+  [self setImageView:nil];
+  [super viewDidUnload];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
