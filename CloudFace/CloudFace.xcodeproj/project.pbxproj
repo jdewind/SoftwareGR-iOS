@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B83EECE14800D0C00DD1CBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECD14800D0C00DD1CBA /* UIKit.framework */; };
+		4B83EED014800D0C00DD1CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EECF14800D0C00DD1CBA /* Foundation.framework */; };
+		4B83EED214800D0C00DD1CBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */; };
+		4B83EED814800D0C00DD1CBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B83EED614800D0C00DD1CBA /* InfoPlist.strings */; };
+		4B83EEDA14800D0C00DD1CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83EED914800D0C00DD1CBA /* main.m */; };
+		4B83EEDE14800D0C00DD1CBA /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83EEDD14800D0C00DD1CBA /* JSAppDelegate.m */; };
+		4B83EEE714800FA700DD1CBA /* JSCloudFacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83EEE614800FA700DD1CBA /* JSCloudFacesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B83EEC914800D0C00DD1CBA /* CloudFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B83EECD14800D0C00DD1CBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B83EECF14800D0C00DD1CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B83EED514800D0C00DD1CBA /* CloudFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudFace-Info.plist"; sourceTree = "<group>"; };
+		4B83EED714800D0C00DD1CBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B83EED914800D0C00DD1CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B83EEDB14800D0C00DD1CBA /* CloudFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudFace-Prefix.pch"; sourceTree = "<group>"; };
+		4B83EEDC14800D0C00DD1CBA /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		4B83EEDD14800D0C00DD1CBA /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		4B83EEE414800DEE00DD1CBA /* CloudFace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudFace.entitlements; sourceTree = "<group>"; };
+		4B83EEE514800FA700DD1CBA /* JSCloudFacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFacesViewController.h; sourceTree = "<group>"; };
+		4B83EEE614800FA700DD1CBA /* JSCloudFacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFacesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B83EEC614800D0C00DD1CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B83EECE14800D0C00DD1CBA /* UIKit.framework in Frameworks */,
+				4B83EED014800D0C00DD1CBA /* Foundation.framework in Frameworks */,
+				4B83EED214800D0C00DD1CBA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B83EEBE14800D0C00DD1CBA = {
+			isa = PBXGroup;
+			children = (
+				4B83EED314800D0C00DD1CBA /* CloudFace */,
+				4B83EECC14800D0C00DD1CBA /* Frameworks */,
+				4B83EECA14800D0C00DD1CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B83EECA14800D0C00DD1CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B83EEC914800D0C00DD1CBA /* CloudFace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B83EECC14800D0C00DD1CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B83EECD14800D0C00DD1CBA /* UIKit.framework */,
+				4B83EECF14800D0C00DD1CBA /* Foundation.framework */,
+				4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B83EED314800D0C00DD1CBA /* CloudFace */ = {
+			isa = PBXGroup;
+			children = (
+				4B83EEE414800DEE00DD1CBA /* CloudFace.entitlements */,
+				4B83EEDC14800D0C00DD1CBA /* JSAppDelegate.h */,
+				4B83EEDD14800D0C00DD1CBA /* JSAppDelegate.m */,
+				4B83EED414800D0C00DD1CBA /* Supporting Files */,
+				4B83EEE514800FA700DD1CBA /* JSCloudFacesViewController.h */,
+				4B83EEE614800FA700DD1CBA /* JSCloudFacesViewController.m */,
+			);
+			path = CloudFace;
+			sourceTree = "<group>";
+		};
+		4B83EED414800D0C00DD1CBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B83EED514800D0C00DD1CBA /* CloudFace-Info.plist */,
+				4B83EED614800D0C00DD1CBA /* InfoPlist.strings */,
+				4B83EED914800D0C00DD1CBA /* main.m */,
+				4B83EEDB14800D0C00DD1CBA /* CloudFace-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B83EEC814800D0C00DD1CBA /* CloudFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B83EEE114800D0C00DD1CBA /* Build configuration list for PBXNativeTarget "CloudFace" */;
+			buildPhases = (
+				4B83EEC514800D0C00DD1CBA /* Sources */,
+				4B83EEC614800D0C00DD1CBA /* Frameworks */,
+				4B83EEC714800D0C00DD1CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudFace;
+			productName = CloudFace;
+			productReference = 4B83EEC914800D0C00DD1CBA /* CloudFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B83EEC014800D0C00DD1CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4B83EEC314800D0C00DD1CBA /* Build configuration list for PBXProject "CloudFace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B83EEBE14800D0C00DD1CBA;
+			productRefGroup = 4B83EECA14800D0C00DD1CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B83EEC814800D0C00DD1CBA /* CloudFace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B83EEC714800D0C00DD1CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B83EED814800D0C00DD1CBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B83EEC514800D0C00DD1CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B83EEDA14800D0C00DD1CBA /* main.m in Sources */,
+				4B83EEDE14800D0C00DD1CBA /* JSAppDelegate.m in Sources */,
+				4B83EEE714800FA700DD1CBA /* JSCloudFacesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B83EED614800D0C00DD1CBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B83EED714800D0C00DD1CBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B83EEDF14800D0C00DD1CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B83EEE014800D0C00DD1CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B83EEE214800D0C00DD1CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CloudFace/CloudFace.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudFace/CloudFace-Prefix.pch";
+				INFOPLIST_FILE = "CloudFace/CloudFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B83EEE314800D0C00DD1CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CloudFace/CloudFace.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudFace/CloudFace-Prefix.pch";
+				INFOPLIST_FILE = "CloudFace/CloudFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B83EEC314800D0C00DD1CBA /* Build configuration list for PBXProject "CloudFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B83EEDF14800D0C00DD1CBA /* Debug */,
+				4B83EEE014800D0C00DD1CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B83EEE114800D0C00DD1CBA /* Build configuration list for PBXNativeTarget "CloudFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B83EEE214800D0C00DD1CBA /* Debug */,
+				4B83EEE314800D0C00DD1CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B83EEC014800D0C00DD1CBA /* Project object */;
+}
