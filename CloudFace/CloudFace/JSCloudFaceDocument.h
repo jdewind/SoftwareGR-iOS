@@ -7,10 +7,9 @@
 NSString *const CloudFaceDocumentExtension;
 
 @interface JSCloudFaceDocument : UIDocument
-@property (nonatomic, readonly, getter = isNewDocument) BOOL newDocument;
 @property (nonatomic, strong) CIImage *faceImage;
-@property (nonatomic, strong) NSString *caption;
-@property (nonatomic, strong) NSArray *features;
+@property (nonatomic, strong) NSDictionary *facePositions;
+@property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSFileWrapper *fileWrapper;
 @property (nonatomic, weak) id<JSCloudFaceDocumentDelegate> delegate;
 @end

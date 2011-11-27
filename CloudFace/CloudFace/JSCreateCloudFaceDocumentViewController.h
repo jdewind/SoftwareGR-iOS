@@ -2,11 +2,13 @@
 #import "JSCloudFaceDocument.h"
 
 @interface JSCreateCloudFaceDocumentViewController : UIViewController {
-  UIImage *_image;
+  __strong UIImage *_image;
 }
 
-@property (strong, nonatomic) MBProgressHUD *hud;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) CIFaceFeature *feature;
+@property (strong, nonatomic) CIImage *ciImage;
+@property (strong, nonatomic) MBProgressHUD *hud;
 
 - (id)initWithImage:(UIImage *)image;
 @end

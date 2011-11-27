@@ -2,4 +2,5 @@
 
 @interface UIAlertView (UIAlertViewExtensions)
 + (id)js_showCloudNotAvailableAlert;
++ (id)js_showFaceNotDetectedAlert;
 @end

@@ -38,6 +38,25 @@ static JSCloudWrapper *gCloudWrapper;
   return [[JSCloudFaceDocument alloc] initWithFileURL:documentURL];
 }
 
+- (id)createDocumentWithImage:(CIImage *)image feature:(CIFaceFeature *)faceFeature title:(NSString *)title {
+  JSCloudFaceDocument *document  = [self createDocument];
+  document.faceImage = image;
+  document.title = title;
+  NSMutableDictionary *facePositions = [NSMutableDictionary dictionary];
+  if (faceFeature.hasLeftEyePosition) {
+    [facePositions setObject:NSStringFromCGPoint(faceFeature.leftEyePosition) forKey:@"leftEyePosition"];
+  }
+  if (faceFeature.hasRightEyePosition) {
+    [facePositions setObject:NSStringFromCGPoint(faceFeature.rightEyePosition) forKey:@"rightEyePosition"];
+  }
+  if (faceFeature.hasMouthPosition) {
+    [facePositions setObject:NSStringFromCGPoint(faceFeature.mouthPosition) forKey:@"mouthPosition"];
+  }
+  document.facePositions = facePositions;
+  return document;
+}
+
+
 #pragma mark - Private
 
 - (NSURL *)localDocumentsDirectoryURL {
