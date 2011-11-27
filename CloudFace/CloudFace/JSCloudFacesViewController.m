@@ -4,11 +4,14 @@
 
 @implementation JSCloudFacesViewController
 @synthesize cloudWrapper = _cloudWrapper;
+@synthesize documents = _documents;
+@synthesize documentFinder = _documentFinder;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
   if((self = [super initWithNibName:nil bundle:nil])) {
     self.cloudWrapper = [JSCloudWrapper shared];
     self.title = @"Cloud Faces";
+    self.documentFinder = [[JSCloudFaceDocumentFinder alloc] init];
   }
   return self;
 }
@@ -17,9 +20,6 @@
 
 - (void)viewDidLoad
 {
-  if (!self.cloudWrapper.isCloudAvailable) {
-    [UIAlertView js_showCloudNotAvailableAlert];
-  }
   self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addCloudFaceButtonTapped)];
   [super viewDidLoad];
 }
@@ -34,28 +34,41 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+  if (!self.cloudWrapper.isCloudAvailable) {
+    [UIAlertView js_showCloudNotAvailableAlert];
+  } else if(!self.documents){
+    [self.documentFinder lookupCloudFaceDocuments:^(NSArray *documents) {
+      self.documents = documents;
+      [self.tableView reloadData];
+    }];
+  }
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return self.documents.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
-    
-    return cell;
+  static NSString *CellIdentifier = @"Cell";
+  
+  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+  
+  if (cell == nil) {
+      cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+  }
+  
+  cell.textLabel.text = [[self.documents objectAtIndex:indexPath.row] title];
+  return cell;
 }
 
 #pragma mark - Table view delegate

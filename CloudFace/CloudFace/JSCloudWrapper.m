@@ -9,6 +9,7 @@ static JSCloudWrapper *gCloudWrapper;
 @implementation JSCloudWrapper
 
 @synthesize cloudURL = _cloudURL;
+@dynamic cloudDocumentsURL;
 @dynamic cloudAvailable;
 
 + (void)initialize {
@@ -33,14 +34,24 @@ static JSCloudWrapper *gCloudWrapper;
   return _cloudURL != nil;
 }
 
+- (NSURL *)cloudDocumentsURL {
+  return [self.cloudURL URLByAppendingPathComponent:@"Documents"];
+}
+
 - (id)createDocument {
-  NSURL *url = self.isCloudAvailable ? self.cloudURL : [self localDocumentsDirectoryURL];
+  NSURL *url = [self localDocumentsDirectoryURL];
   NSURL *documentURL = [url URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.%@", [[NSProcessInfo processInfo] globallyUniqueString], CloudFaceDocumentExtension]];
   return [[JSCloudFaceDocument alloc] initWithFileURL:documentURL];
 }
 
+- (id)createDocumentWithName:(NSString *)name {
+  NSURL *url = [self localDocumentsDirectoryURL];
+  NSURL *documentURL = [url URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.%@", name, CloudFaceDocumentExtension]];
+  return [[JSCloudFaceDocument alloc] initWithFileURL:documentURL];  
+}
+
 - (id)createDocumentWithImage:(CIImage *)image feature:(CIFaceFeature *)faceFeature title:(NSString *)title {
-  JSCloudFaceDocument *document  = [self createDocument];
+  JSCloudFaceDocument *document  = [self createDocumentWithName:title];
   document.faceImage = image;
   document.title = title;
   NSMutableDictionary *facePositions = [NSMutableDictionary dictionary];

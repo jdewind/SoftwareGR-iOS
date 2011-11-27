@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0375C914828DC60020A4E4 /* JSCloudFaceDocumentFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0375C814828DC60020A4E4 /* JSCloudFaceDocumentFinder.m */; };
 		4B098EB0148011AD004C581D /* JSCloudWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EAF148011AD004C581D /* JSCloudWrapper.m */; };
 		4B098EB4148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB3148016DA004C581D /* UIAlertView+UIAlertViewExtensions.m */; };
 		4B098EBA14801C85004C581D /* JSCloudFaceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B098EB914801C85004C581D /* JSCloudFaceDocument.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0375C714828DC60020A4E4 /* JSCloudFaceDocumentFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFaceDocumentFinder.h; sourceTree = "<group>"; };
+		4B0375C814828DC60020A4E4 /* JSCloudFaceDocumentFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDocumentFinder.m; sourceTree = "<group>"; };
 		4B098EAE148011AD004C581D /* JSCloudWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudWrapper.h; sourceTree = "<group>"; };
 		4B098EAF148011AD004C581D /* JSCloudWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudWrapper.m; sourceTree = "<group>"; };
 		4B098EB2148016DA004C581D /* UIAlertView+UIAlertViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+UIAlertViewExtensions.h"; sourceTree = "<group>"; };
@@ -79,7 +82,6 @@
 		4B83EEBE14800D0C00DD1CBA = {
 			isa = PBXGroup;
 			children = (
-				4B098EC914802FBA004C581D /* CoreImage.framework */,
 				4B83EED314800D0C00DD1CBA /* CloudFace */,
 				4B83EECC14800D0C00DD1CBA /* Frameworks */,
 				4B83EECA14800D0C00DD1CBA /* Products */,
@@ -97,6 +99,7 @@
 		4B83EECC14800D0C00DD1CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B098EC914802FBA004C581D /* CoreImage.framework */,
 				4B83EECD14800D0C00DD1CBA /* UIKit.framework */,
 				4B83EECF14800D0C00DD1CBA /* Foundation.framework */,
 				4B83EED114800D0C00DD1CBA /* CoreGraphics.framework */,
@@ -123,6 +126,8 @@
 				4B098EBB14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.h */,
 				4B098EBC14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m */,
 				4B098EC714802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib */,
+				4B0375C714828DC60020A4E4 /* JSCloudFaceDocumentFinder.h */,
+				4B0375C814828DC60020A4E4 /* JSCloudFaceDocumentFinder.m */,
 			);
 			path = CloudFace;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				4B098EBA14801C85004C581D /* JSCloudFaceDocument.m in Sources */,
 				4B098EBD14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m in Sources */,
 				4B098EF8148036F5004C581D /* MBProgressHUD.m in Sources */,
+				4B0375C914828DC60020A4E4 /* JSCloudFaceDocumentFinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +280,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = CloudFace/CloudFace.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Justin Dewind (MENZ4ZEL6N)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudFace/CloudFace-Prefix.pch";
 				INFOPLIST_FILE = "CloudFace/CloudFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB055465-4B22-4156-8A0C-7A1584B8A538";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,10 +294,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = CloudFace/CloudFace.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Justin Dewind (MENZ4ZEL6N)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudFace/CloudFace-Prefix.pch";
 				INFOPLIST_FILE = "CloudFace/CloudFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB055465-4B22-4156-8A0C-7A1584B8A538";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

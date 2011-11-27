@@ -2,9 +2,9 @@
 
 NSString *const CloudFaceDocumentExtension = @"cloudface";
 
-static NSString *const TitleFileName = @"Title";
-static NSString *const FaceImageFileName = @"FaceImage.png";
-static NSString *const FacePositionsFileName = @"FacePositions";
+static NSString *const TitleFileName = @"Title.data";
+static NSString *const FaceImageFileName = @"FaceImage.cimage";
+static NSString *const FacePositionsFileName = @"FacePositions.data";
 
 @implementation JSCloudFaceDocument
 @synthesize faceImage = _faceImage;

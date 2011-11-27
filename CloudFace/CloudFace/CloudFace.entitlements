@@ -4,13 +4,13 @@
 <dict>
 	<key>com.apple.developer.ubiquity-container-identifiers</key>
 	<array>
-		<string>$(TeamIdentifierPrefix)atomicobject.CloudFace</string>
+		<string>$(TeamIdentifierPrefix)com.atomicicloud.CloudFace</string>
 	</array>
 	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
-	<string>$(TeamIdentifierPrefix)atomicobject.CloudFace</string>
+	<string>$(TeamIdentifierPrefix)com.atomicicloud.CloudFace</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)atomicobject.CloudFace</string>
+		<string>$(AppIdentifierPrefix)com.atomicicloud.CloudFace</string>
 	</array>
 </dict>
 </plist>
