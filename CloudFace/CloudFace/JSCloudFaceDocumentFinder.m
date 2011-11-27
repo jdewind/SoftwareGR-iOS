@@ -12,17 +12,17 @@
   _query = [[NSMetadataQuery alloc] init];
   self.completionHandler = completionHandler;
   [_query setSearchScopes:[NSArray arrayWithObjects:NSMetadataQueryUbiquitousDocumentsScope, nil]];
-  [_query setPredicate:[NSPredicate predicateWithFormat:@"%K == '*.%@'", NSMetadataItemFSNameKey, CloudFaceDocumentExtension]];
+  [_query setPredicate:[NSPredicate predicateWithFormat:@"%K like '*.cloudface'", NSMetadataItemFSNameKey]];
   [[NSNotificationCenter defaultCenter] 
    addObserver:self 
    selector:@selector(documentListRecieved) 
    name:NSMetadataQueryDidFinishGatheringNotification 
-   object:nil];
+   object:_query];
   [[NSNotificationCenter defaultCenter] 
    addObserver:self 
    selector:@selector(documentListRecieved) 
    name:NSMetadataQueryDidUpdateNotification 
-   object:nil];
+   object:_query];
   [[NSNotificationCenter defaultCenter] 
    addObserver:self 
    selector:@selector(applicationDidEnterBackground) 

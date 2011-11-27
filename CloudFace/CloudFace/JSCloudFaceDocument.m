@@ -12,6 +12,11 @@ static NSString *const FacePositionsFileName = @"FacePositions.data";
 @synthesize title = _title;
 @synthesize delegate = _delegate;
 @synthesize fileWrapper = _fileWrapper;
+@dynamic baseFilename;
+
+- (NSString *)baseFilename {
+  return [[self.fileURL lastPathComponent] stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@".%@", CloudFaceDocumentExtension] withString:@""];
+}
 
 - (CIImage *)faceImage {
   if (!_faceImage) {

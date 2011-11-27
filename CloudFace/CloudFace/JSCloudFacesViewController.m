@@ -66,8 +66,9 @@
   if (cell == nil) {
       cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
   }
-  
-  cell.textLabel.text = [[self.documents objectAtIndex:indexPath.row] title];
+  JSCloudFaceDocument *document = [self.documents objectAtIndex:indexPath.row];
+  cell.textLabel.text = document.baseFilename;
+  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
   return cell;
 }
 
