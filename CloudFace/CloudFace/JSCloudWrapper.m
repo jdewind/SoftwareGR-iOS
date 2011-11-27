@@ -34,7 +34,8 @@ static JSCloudWrapper *gCloudWrapper;
 }
 
 - (id)createDocument {
-  NSURL *documentURL = [[self localDocumentsDirectoryURL] URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.%@", [[NSProcessInfo processInfo] globallyUniqueString], CloudFaceDocumentExtension]];
+  NSURL *url = self.isCloudAvailable ? self.cloudURL : [self localDocumentsDirectoryURL];
+  NSURL *documentURL = [url URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.%@", [[NSProcessInfo processInfo] globallyUniqueString], CloudFaceDocumentExtension]];
   return [[JSCloudFaceDocument alloc] initWithFileURL:documentURL];
 }
 
