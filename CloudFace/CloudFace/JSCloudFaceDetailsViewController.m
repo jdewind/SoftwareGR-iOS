@@ -8,6 +8,10 @@
 
 #import "JSCloudFaceDetailsViewController.h"
 
+@interface JSCloudFaceDetailsViewController()
+- (void)processFacePositions;
+@end
+
 @implementation JSCloudFaceDetailsViewController
 @synthesize imageView;
 @synthesize document = _document;
@@ -28,9 +32,10 @@
     if (success) {
       self.imageView.image = self.document.faceImage;
       self.title = self.document.title;
-      [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
+      [self processFacePositions];
     }
-  }];
+    [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
+ }];
 }
 
 - (void)viewDidLoad
@@ -47,6 +52,37 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark - Private
+
+- (void)processFacePositions {
+  NSDictionary *facePositions = self.document.facePositions;
+  
+  CGFloat widthScale = self.imageView.image.size.width / self.imageView.frame.size.width;
+  CGFloat heightScale = self.imageView.image.size.height / self.imageView.frame.size.height;
+  CGRect faceBounds = CGRectFromString([facePositions objectForKey:@"faceBounds"]);
+
+  NSArray *positions = [NSArray arrayWithObjects:@"leftEyePosition", @"rightEyePosition", @"mouthPosition", nil];
+  NSArray *colors = [NSArray arrayWithObjects:[UIColor redColor], [UIColor blueColor], [UIColor greenColor], nil];
+  NSUInteger index = 0;
+  for (NSString *key in positions) {
+    if ([facePositions objectForKey:key]) {
+      CGPoint point = CGPointFromString([facePositions objectForKey:key]);
+      CGFloat heightAndWidth = 60.0f;
+      
+      UIView *view = [[UIView alloc] initWithFrame:CGRectMake(
+                                                              (point.x - faceBounds.origin.x) / widthScale - (heightAndWidth / 2.0f), 
+                                                              self.view.frame.size.height - ((point.y - faceBounds.origin.y) / heightScale) - (heightAndWidth / 2.0f), 
+                                                              heightAndWidth, 
+                                                              heightAndWidth)];
+      view.backgroundColor = [colors objectAtIndex:index];
+      view.alpha = 0.75;
+      index++;
+      [self.view addSubview:view];
+      [self.view bringSubviewToFront:view];
+    }    
+  }
 }
 
 @end

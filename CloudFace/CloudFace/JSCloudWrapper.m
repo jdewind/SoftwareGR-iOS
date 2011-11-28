@@ -55,6 +55,7 @@ static JSCloudWrapper *gCloudWrapper;
   document.faceImage = image;
   document.title = title;
   NSMutableDictionary *facePositions = [NSMutableDictionary dictionary];
+  [facePositions setObject:NSStringFromCGRect(faceFeature.bounds) forKey:@"faceBounds"];
   if (faceFeature.hasLeftEyePosition) {
     [facePositions setObject:NSStringFromCGPoint(faceFeature.leftEyePosition) forKey:@"leftEyePosition"];
   }
