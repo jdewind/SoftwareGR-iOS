@@ -57,7 +57,7 @@
 
 - (void)alertView:(UIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex {
   NSString *title = [alertView textFieldAtIndex:0].text;
-  JSCloudFaceDocument *document = [[JSCloudWrapper shared] createDocumentWithImage:self.ciImage feature:self.feature title:title];
+  JSCloudFaceDocument *document = [[JSCloudWrapper shared] createDocumentWithImage:self.imageView.image feature:self.feature title:title];
   self.hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
   self.hud.labelText = @"Saving..";  
 

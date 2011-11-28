@@ -3,14 +3,13 @@
 NSString *const CloudFaceDocumentExtension = @"cloudface";
 
 static NSString *const TitleFileName = @"Title.data";
-static NSString *const FaceImageFileName = @"FaceImage.cimage";
+static NSString *const FaceImageFileName = @"FaceImage.png";
 static NSString *const FacePositionsFileName = @"FacePositions.data";
 
 @implementation JSCloudFaceDocument
 @synthesize faceImage = _faceImage;
 @synthesize facePositions = _facePositions;
 @synthesize title = _title;
-@synthesize delegate = _delegate;
 @synthesize fileWrapper = _fileWrapper;
 @dynamic baseFilename;
 
@@ -18,23 +17,23 @@ static NSString *const FacePositionsFileName = @"FacePositions.data";
   return [[self.fileURL lastPathComponent] stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@".%@", CloudFaceDocumentExtension] withString:@""];
 }
 
-- (CIImage *)faceImage {
+- (UIImage *)faceImage {
   if (!_faceImage) {
-    self.faceImage = [NSKeyedUnarchiver unarchiveObjectWithData:[self.fileWrapper.fileWrappers objectForKey:FacePositionsFileName]];
+    self.faceImage = [UIImage imageWithData:[[self.fileWrapper.fileWrappers objectForKey:FaceImageFileName] regularFileContents]];
   }
   return _faceImage;
 }
 
 - (NSString *)title {
   if (!_title) {
-    self.title = [[NSString alloc] initWithData:[self.fileWrapper.fileWrappers objectForKey:TitleFileName] encoding:NSUTF8StringEncoding];    
+    self.title = [[NSString alloc] initWithData:[[self.fileWrapper.fileWrappers objectForKey:TitleFileName] regularFileContents] encoding:NSUTF8StringEncoding];    
   }
   return _title;
 }
 
 - (NSDictionary *)facePositions {
   if (!_facePositions) {
-    self.facePositions = [NSPropertyListSerialization propertyListWithData:[self.fileWrapper.fileWrappers objectForKey:FacePositionsFileName] 
+    self.facePositions = [NSPropertyListSerialization propertyListWithData:[[self.fileWrapper.fileWrappers objectForKey:FacePositionsFileName] regularFileContents]
                                                                    options:NSPropertyListImmutable 
                                                                     format:NULL 
                                                                      error:nil];    
@@ -71,7 +70,7 @@ static NSString *const FacePositionsFileName = @"FacePositions.data";
   }
   
   if (![fileWrappers objectForKey:FaceImageFileName] && self.faceImage) {    
-    NSFileWrapper *faceImageWrapper = [[NSFileWrapper alloc] initRegularFileWithContents:[NSKeyedArchiver archivedDataWithRootObject:self.faceImage]];
+    NSFileWrapper *faceImageWrapper = [[NSFileWrapper alloc] initRegularFileWithContents:UIImagePNGRepresentation(self.faceImage)];
     [faceImageWrapper setPreferredFilename:FaceImageFileName];
     [self.fileWrapper addFileWrapper:faceImageWrapper];
   }  

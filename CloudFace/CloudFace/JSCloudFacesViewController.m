@@ -1,6 +1,7 @@
 #import "JSCloudFacesViewController.h"
 #import "UIAlertView+UIAlertViewExtensions.h"
 #import "JSCreateCloudFaceDocumentViewController.h"
+#import "JSCloudFaceDetailsViewController.h"
 
 @implementation JSCloudFacesViewController
 @synthesize cloudWrapper = _cloudWrapper;
@@ -75,7 +76,10 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{  
+{
+  JSCloudFaceDocument *document = [self.documents objectAtIndex:indexPath.row];
+  JSCloudFaceDetailsViewController *controller = [[JSCloudFaceDetailsViewController alloc] initWithDocument:document];
+  [self.navigationController pushViewController:controller animated:YES];
 }
 
 #pragma mark - UIImagePickerControllerDelegate

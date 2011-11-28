@@ -50,7 +50,7 @@ static JSCloudWrapper *gCloudWrapper;
   return [[JSCloudFaceDocument alloc] initWithFileURL:documentURL];  
 }
 
-- (id)createDocumentWithImage:(CIImage *)image feature:(CIFaceFeature *)faceFeature title:(NSString *)title {
+- (id)createDocumentWithImage:(UIImage *)image feature:(CIFaceFeature *)faceFeature title:(NSString *)title {
   JSCloudFaceDocument *document  = [self createDocumentWithName:title];
   document.faceImage = image;
   document.title = title;

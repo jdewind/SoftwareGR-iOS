@@ -22,6 +22,8 @@
 		4B83EEDA14800D0C00DD1CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83EED914800D0C00DD1CBA /* main.m */; };
 		4B83EEDE14800D0C00DD1CBA /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83EEDD14800D0C00DD1CBA /* JSAppDelegate.m */; };
 		4B83EEE714800FA700DD1CBA /* JSCloudFacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83EEE614800FA700DD1CBA /* JSCloudFacesViewController.m */; };
+		4BCFCBC71482FD7D00573789 /* JSCloudFaceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCFCBC51482FD7D00573789 /* JSCloudFaceDetailsViewController.m */; };
+		4BCFCBC81482FD7D00573789 /* JSCloudFaceDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFCBC61482FD7D00573789 /* JSCloudFaceDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,9 @@
 		4B83EEE414800DEE00DD1CBA /* CloudFace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudFace.entitlements; sourceTree = "<group>"; };
 		4B83EEE514800FA700DD1CBA /* JSCloudFacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFacesViewController.h; sourceTree = "<group>"; };
 		4B83EEE614800FA700DD1CBA /* JSCloudFacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFacesViewController.m; sourceTree = "<group>"; };
+		4BCFCBC41482FD7D00573789 /* JSCloudFaceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCloudFaceDetailsViewController.h; sourceTree = "<group>"; };
+		4BCFCBC51482FD7D00573789 /* JSCloudFaceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCloudFaceDetailsViewController.m; sourceTree = "<group>"; };
+		4BCFCBC61482FD7D00573789 /* JSCloudFaceDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCloudFaceDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +133,9 @@
 				4B098EC714802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib */,
 				4B0375C714828DC60020A4E4 /* JSCloudFaceDocumentFinder.h */,
 				4B0375C814828DC60020A4E4 /* JSCloudFaceDocumentFinder.m */,
+				4BCFCBC41482FD7D00573789 /* JSCloudFaceDetailsViewController.h */,
+				4BCFCBC51482FD7D00573789 /* JSCloudFaceDetailsViewController.m */,
+				4BCFCBC61482FD7D00573789 /* JSCloudFaceDetailsViewController.xib */,
 			);
 			path = CloudFace;
 			sourceTree = "<group>";
@@ -195,6 +203,7 @@
 			files = (
 				4B83EED814800D0C00DD1CBA /* InfoPlist.strings in Resources */,
 				4B098EC814802DED004C581D /* JSCreateCloudFaceDocumentViewController.xib in Resources */,
+				4BCFCBC81482FD7D00573789 /* JSCloudFaceDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +223,7 @@
 				4B098EBD14801F6B004C581D /* JSCreateCloudFaceDocumentViewController.m in Sources */,
 				4B098EF8148036F5004C581D /* MBProgressHUD.m in Sources */,
 				4B0375C914828DC60020A4E4 /* JSCloudFaceDocumentFinder.m in Sources */,
+				4BCFCBC71482FD7D00573789 /* JSCloudFaceDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
