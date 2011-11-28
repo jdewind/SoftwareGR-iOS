@@ -69,10 +69,10 @@
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
           NSError *error = nil;
           NSURL *url = [cloudWrapper.cloudDocumentsURL URLByAppendingPathComponent:[document.fileURL lastPathComponent]];
-          BOOL success = [[NSFileManager defaultManager] 
-                          setUbiquitous:YES itemAtURL:document.fileURL 
-                                         destinationURL:url 
-                                                  error:&error];          
+          BOOL success = [[NSFileManager defaultManager] setUbiquitous:YES 
+                                                             itemAtURL:document.fileURL 
+                                                        destinationURL:url 
+                                                                 error:&error];          
           if (!success) {
             NSLog(@"Error saving document: %@", error);
           }

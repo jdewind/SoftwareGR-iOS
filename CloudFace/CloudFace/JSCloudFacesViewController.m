@@ -39,8 +39,11 @@
   if (!self.cloudWrapper.isCloudAvailable) {
     [UIAlertView js_showCloudNotAvailableAlert];
   } else if(!self.documents){
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+    hud.labelText = @"Finding Cloud Faces...";
     [self.documentFinder lookupCloudFaceDocuments:^(NSArray *documents) {
       self.documents = documents;
+      [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
       [self.tableView reloadData];
     }];
   }

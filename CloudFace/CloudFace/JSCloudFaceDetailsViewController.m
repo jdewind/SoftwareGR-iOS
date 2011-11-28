@@ -1,11 +1,3 @@
-//
-//  JSCloudFaceDetailsViewController.m
-//  CloudFace
-//
-//  Created by Justin DeWind on 11/27/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "JSCloudFaceDetailsViewController.h"
 
 @interface JSCloudFaceDetailsViewController()
@@ -19,6 +11,7 @@
 - (id)initWithDocument:(JSCloudFaceDocument *)document {
   if ((self = [super initWithNibName:@"JSCloudFaceDetailsViewController" bundle:nil])) {
     _document = document;
+    self.title = self.document.baseFilename;
   }
   return self;
 }
@@ -28,12 +21,13 @@
 - (void)viewDidAppear:(BOOL)animated {
   MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
   hud.labelText = @"Downloading..";
+  [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
   [self.document openWithCompletionHandler:^(BOOL success) {
     if (success) {
       self.imageView.image = self.document.faceImage;
-      self.title = self.document.title;
       [self processFacePositions];
     }
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
  }];
 }

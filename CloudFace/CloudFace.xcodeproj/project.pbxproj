@@ -295,7 +295,7 @@
 				GCC_PREFIX_HEADER = "CloudFace/CloudFace-Prefix.pch";
 				INFOPLIST_FILE = "CloudFace/CloudFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB055465-4B22-4156-8A0C-7A1584B8A538";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "05E3CE54-AF3C-481B-B7A2-3DF919222D02";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -309,7 +309,7 @@
 				GCC_PREFIX_HEADER = "CloudFace/CloudFace-Prefix.pch";
 				INFOPLIST_FILE = "CloudFace/CloudFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB055465-4B22-4156-8A0C-7A1584B8A538";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "05E3CE54-AF3C-481B-B7A2-3DF919222D02";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

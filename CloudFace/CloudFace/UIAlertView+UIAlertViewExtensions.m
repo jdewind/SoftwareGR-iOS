@@ -16,7 +16,7 @@
 + (id)js_showFaceNotDetectedAlert {
   UIAlertView *view = [[UIAlertView alloc] 
                        initWithTitle:@"Face Not Detected" 
-                       message:@"We were unable to detect a face. Tap back and try again.X" 
+                       message:@"We were unable to detect a face. Tap back and try again." 
                        delegate:nil 
                        cancelButtonTitle:nil 
                        otherButtonTitles:@"Okay", nil];
