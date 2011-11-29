@@ -11,8 +11,8 @@
   }
   _query = [[NSMetadataQuery alloc] init];
   self.completionHandler = completionHandler;
-  [_query setSearchScopes:[NSArray arrayWithObjects:NSMetadataQueryUbiquitousDocumentsScope, nil]];
-  [_query setPredicate:[NSPredicate predicateWithFormat:@"%K like '*.cloudface'", NSMetadataItemFSNameKey]];
+  _query.searchScopes = [NSArray arrayWithObjects:NSMetadataQueryUbiquitousDocumentsScope, nil];
+  _query.predicate = [NSPredicate predicateWithFormat:@"%K like '*.cloudface'", NSMetadataItemFSNameKey];
   [[NSNotificationCenter defaultCenter] 
    addObserver:self 
    selector:@selector(documentListRecieved) 
