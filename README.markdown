@@ -6,5 +6,6 @@ This example utilizes iCloud, Core Image, and ARC to create a application called
 
 You will need to reconfigure the application's code signing under "Build Settings" in XCode to match a mobile provisioning under your development account.
 
+## Known Issues
 
-
+* Example does not detect the orientation of the image which can result in erroneous face positions
